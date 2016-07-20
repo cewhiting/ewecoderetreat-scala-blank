@@ -1,6 +1,5 @@
-import org.scalatest.FeatureSpec
-import org.scalatest.GivenWhenThen
-import org.scalatest.Matchers
-import org.scalatest._
+package com.expedia.coderetreat
+
+import org.scalatest.{FeatureSpec, GivenWhenThen, Matchers}
 
 abstract class UnitSpec extends FeatureSpec with Matchers with GivenWhenThen
